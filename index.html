@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport"
+         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/css/uikit.min.css"/>
+   <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/js/uikit.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.3/dist/js/uikit-icons.min.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link rel="stylesheet" href="./css/style.css">
+   <title>БОНУСЫ</title>
+</head>
+<body>
+
+<header class="header wrapper">
+   <nav class="header-nav">
+      <div class="header-nav__logo">
+         <img src="./img/logo.png" alt="Kcell">
+      </div>
+
+      <ul class="header-nav__menu flex j-sb" style="z-index: 980;" uk-sticky="top: 100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+         <li class="header-nav-menu__item">
+            <a href="#banner" uk-scroll>
+               Главная
+            </a>
+         </li>
+         <li class="header-nav-menu__item">
+            <a href="#instructions" uk-scroll>
+               Как принять участие
+            </a>
+         </li>
+         <li class="header-nav-menu__item">
+            <a href="#prizes" uk-scroll>
+               Призы
+            </a>
+         </li>
+         <li class="header-nav-menu__item">
+            <a href="#winners" uk-scroll>
+               Победители
+            </a>
+         </li>
+         <li class="header-nav-menu__item">
+            <a href="#rules" uk-scroll>
+               Правила
+            </a>
+         </li>
+      </ul>
+   </nav>
+</header>
+
+<main class="wrapper">
+   <section id="banner" class="banner">
+      <div class="banner-info">
+         <p class="banner-info__desc">
+            Отправьте любое sms на номер 808, отвечайте на вопросы и выйгрывайте до
+         </p>
+
+         <h1 class="banner-info__title">
+            5 000 000 <br>
+            тенге!
+         </h1>
+      </div>
+
+      <div class="banner-submit">
+         <a class="banner-submit__link" href="#">Читать дальше</a>
+      </div>
+   </section>
+
+   <section id="instructions" class="instructions">
+      <div class="instructions-info" data-aos="fade-up">
+         <h2 class="instructions-info__title">
+            Как принять участие
+         </h2>
+
+         <p class="instructions-info__desc">
+            Чтобы принять участие в Акции просто подключите Услугу "Счастливые БОНУСЫ", <br>
+            <span>отправив любое SMS на короткий номер 808</span>
+         </p>
+
+         <p class="instructions-info__price">
+            Стоимость услуги от 49 тенге в сутки
+         </p>
+      </div>
+
+      <div class="instructions-box flex j-se flex-wrap" data-aos="fade-up">
+         <div class="instructions-box__item">
+            <div class="instructions-box-item__icon">
+               <img src="./img/icon.png" alt="Instructions">
+            </div>
+
+            <p class="instructions-box-item__desc">
+               Отправьте любое SMS на короткий номер 808
+            </p>
+         </div>
+
+         <div class="instructions-box__item">
+            <div class="instructions-box-item__icon">
+               <img src="./img/icon1.png" alt="Instructions">
+            </div>
+
+            <p class="instructions-box-item__desc">
+               В ответ Вам придет сообщение подтверждающее
+               подключение услуги и дальнейшие инструкции
+            </p>
+         </div>
+
+         <div class="instructions-box__item">
+            <div class="instructions-box-item__icon">
+               <img src="./img/icon2.png" alt="Instructions">
+            </div>
+
+            <p class="instructions-box-item__desc">
+               Каждый день отвечайте на вопросы,
+               выбирая правильные ответы из предложенных вариантов
+            </p>
+         </div>
+
+         <div class="instructions-box__item">
+            <div class="instructions-box-item__icon">
+               <img src="./img/icon3.png" alt="Instructions">
+            </div>
+
+            <p class="instructions-box-item__desc">
+               Участник, ответивший правильно на наибольшее
+               количество вопросов за наименьшее время будет
+               объявлен победителем!
+            </p>
+         </div>
+
+         <div class="instructions-box__item">
+            <div class="instructions-box-item__icon">
+               <img src="./img/icon4.png" alt="Instructions">
+            </div>
+
+            <p class="instructions-box-item__desc">
+               За правильный ответ участники получают 20 баллов,
+               за неправильный очки не начисляются. Сумма набранных
+               баллов делится на время, затраченное на ответы.
+            </p>
+
+            <p class="instructions-box-item__bonus">
+               Отправка SMS на номер 808 бесплатна
+            </p>
+         </div>
+      </div>
+   </section>
+
+   <section id="prizes" class="prizes">
+      <h2 class="prizes__title" data-aos="fade-up">Призы</h2>
+
+      <div class="prizes-box flex flex-wrap" data-aos="fade-right">
+         <div class="prizes-box__item">
+            <div class="prizes-box-item__img">
+               <img src="./img/50000kzt.png" alt="Prize">
+            </div>
+
+            <p class="prizes-box-item__desc">
+               Ежедневный приз
+            </p>
+
+            <h2 class="prizes-box-item__title">
+               20 000 тенге
+            </h2>
+         </div>
+
+         <div class="prizes-box__item">
+            <div class="prizes-box-item__img">
+               <img src="./img/1000000kzt.png" alt="Prize">
+            </div>
+
+            <p class="prizes-box-item__desc">
+               Ежемесячный приз
+            </p>
+
+            <h2 class="prizes-box-item__title">
+               300 000 тенге
+            </h2>
+         </div>
+
+         <div class="prizes-box__item">
+            <div class="prizes-box-item__img">
+               <img src="./img/5000000kzt.png" alt="Prize">
+            </div>
+
+            <p class="prizes-box-item__desc">
+               Ежеквартальный приз
+            </p>
+
+            <h2 class="prizes-box-item__title">
+               700 000 тенге
+            </h2>
+         </div>
+
+         <div class="prizes-box__item">
+            <div class="prizes-box-item__img">
+               <img src="./img/10000000kzt.png" alt="Prize">
+            </div>
+
+            <p class="prizes-box-item__desc">
+               Главный приз
+            </p>
+
+            <h2 class="prizes-box-item__title">
+               5 000 000 тенге
+            </h2>
+         </div>
+      </div>
+
+      <h2 class="prizes__title" data-aos="fade-up">Поощрительные призы</h2>
+
+      <div class="prizes-box flex flex-wrap" data-aos="fade-left">
+         <div class="prizes-box__item">
+            <div class="prizes-box-item__img">
+               <img src="./img/50000kzt.png" alt="Prize">
+            </div>
+
+            <p class="prizes-box-item__desc">
+               Ежедневно
+            </p>
+
+            <h2 class="prizes-box-item__title">
+               5 х 5 000 тенге
+            </h2>
+         </div>
+
+         <div class="prizes-box__item">
+            <div class="prizes-box-item__img">
+               <img src="./img/1000000kzt.png" alt="Prize">
+            </div>
+
+            <p class="prizes-box-item__desc">
+               Ежемесячно
+            </p>
+
+            <h2 class="prizes-box-item__title">
+               2 х 10 000 тенге <br>
+               7 х 5 000 тенге
+            </h2>
+         </div>
+
+         <div class="prizes-box__item">
+            <div class="prizes-box-item__img">
+               <img src="./img/5000000kzt.png" alt="Prize">
+            </div>
+
+            <p class="prizes-box-item__desc">
+               Ежеквартально
+            </p>
+
+            <h2 class="prizes-box-item__title">
+               2 х 20 000 тенге <br>
+               17 х 5 000 тенге
+            </h2>
+         </div>
+
+         <div class="prizes-box__item">
+            <div class="prizes-box-item__img">
+               <img src="./img/10000000kzt.png" alt="Prize">
+            </div>
+
+            <p class="prizes-box-item__desc">
+               Ежегодно
+            </p>
+
+            <h2 class="prizes-box-item__title">
+               9 х 100 000 тенге <br>
+               90 х 5 000 тенге
+            </h2>
+         </div>
+      </div>
+   </section>
+
+   <section id="winners" class="winners">
+      <h2 class="winners__title">Победители</h2>
+
+      <div class="winners-box">
+         <div class="winners-box__item flex">
+            <p class="winners-box-item__date">30.09</p>
+            <p class="winners-box-item__phone">+7 (775) XXX XX 95</p>
+            <p class="winners-box-item__amount">300 000 тг</p>
+         </div>
+         <div class="winners-box__item flex">
+            <p class="winners-box-item__date">30.09</p>
+            <p class="winners-box-item__phone">+7 (775) XXX XX 95</p>
+            <p class="winners-box-item__amount">300 000 тг</p>
+         </div>
+      </div>
+
+      <div class="winners-box-toggle">
+         <button class="winners-box-toggle__btn" type="button"
+                 uk-toggle="target: #toggle-usage; animation: uk-animation-fade">
+            Показать еще <br>
+            <span uk-icon="chevron-down"></span>
+         </button>
+      </div>
+
+      <div id="toggle-usage" class="winners-box" hidden>
+         <div class="winners-box__item flex">
+            <p class="winners-box-item__date">30.09</p>
+            <p class="winners-box-item__phone">+7 (775) XXX XX 95</p>
+            <p class="winners-box-item__amount">300 000 тг</p>
+         </div>
+         <div class="winners-box__item flex">
+            <p class="winners-box-item__date">30.09</p>
+            <p class="winners-box-item__phone">+7 (775) XXX XX 95</p>
+            <p class="winners-box-item__amount">300 000 тг</p>
+         </div>
+         <div class="winners-box__item flex">
+            <p class="winners-box-item__date">30.09</p>
+            <p class="winners-box-item__phone">+7 (775) XXX XX 95</p>
+            <p class="winners-box-item__amount">300 000 тг</p>
+         </div>
+         <div class="winners-box__item flex">
+            <p class="winners-box-item__date">30.09</p>
+            <p class="winners-box-item__phone">+7 (775) XXX XX 95</p>
+            <p class="winners-box-item__amount">300 000 тг</p>
+         </div>
+         <div class="winners-box__item flex">
+            <p class="winners-box-item__date">30.09</p>
+            <p class="winners-box-item__phone">+7 (775) XXX XX 95</p>
+            <p class="winners-box-item__amount">300 000 тг</p>
+         </div>
+      </div>
+   </section>
+
+   <section id="rules" class="rules">
+      <h2 class="rules__title">Правила</h2>
+
+      <p class="rules__desc">
+         Правила участия в Викторине «Счастливые БОНУСЫ»
+      </p>
+
+      <div class="rules_box">
+         <div class="rules_prev">
+            <p>
+               <b>1
+                  Термины и определения</b></p>
+            <p>
+               <b>Акция</b>
+               – комплексная услуга на базе подписки
+               «СЧАСТЛИВЫЕ БОНУСЫ», состоящая из Услуги
+               и Викторины, проводимая Организатором
+               Акции;</p>
+            <p>
+               <b>Услуга
+               </b>–
+               дополнительная услуга сотовой связи,
+               оказываемая Оператором, и состоящая из
+               ежедневных бонусных пакетов (далее –
+               «Бонусный Пакет»):</p>
+            <p>
+               «30
+               SMS» (с опциями (далее – «Мини Пакет») 24
+               SMS, 1<span>8</span>
+               SMS, <span>12
+</span>SMS,
+               6 SMS);</p>
+            <p>
+               «30
+               MБ» (с Мини Пакетами 24, 18, 12 и 6 МБ);</p>
+            <p>
+               «30
+               SMS + 30 МБ» (с Мини Пакетами 27 SMS + 27 МБ, 24
+               SMS + 24 МБ, 18 SMS + 18 MB и 12 SMS + 12 МБ и 6 SMS + 6 МБ,
+               3 SMS + 3 MB);</p>
+            <p>
+               «30
+               SMS + 30 МБ + 30 МИН» (с Мини Пакетами 27 SMS + 27
+               МБ + 27 МИН, 21 SMS + 21 МБ + 21 МИН, 18 SMS + 18 МБ + 18
+               МИН, 12 SMS + 12 МБ + 12 МИН, 9 SMS + 9 МБ + 9 МИН, 3
+               SMS + 3 МБ + 3 МИН):</p>
+            <p>
+               <span>«</span>24
+               часа» (1440 минут с Мини Пакетами 720, 360 и
+               180 минут);</p>
+            <p>
+               <span>«</span>250
+               МБ<span>»</span>
+               - пакет бонусной фазы;</p>
+            <p>
+               <b>Викторина</b>
+               – бесплатная услуга, оказываемая
+               Организатором Абонентам, подписавшимся
+               на Услугу, и заключающаяся в предоставлении
+               Абоненту возможности претендовать на
+               получение приза путем ответов на заданные
+               вопросы и направленная на стимулирование
+               продаж Услуги;<b>
+               Организатор Акции</b>
+               — юридическое лицо ТОО «Арбуст» (далее
+               Контент – провайдер), разработавшее
+               Правила участия в интерактивной Акции
+               и несущее ответственность за техническую
+               реализацию Акции, выдачу призов и
+               техническую поддержку;</p>
+            <p>
+               <b>Участник
+               </b>—
+               Абонент, подписавшийся на Услугу и
+               участвующий в Викторине, проводимой
+               согласно настоящих Правил;</p>
+            <p>
+               <b>Победители
+                  Викторины</b>
+               — Участники, которые в соответствии с
+               Правилами будут признаны победителями
+               Викторины и вправе получить от Организатора
+               Акции призы;</p>
+            <p>
+               <b>Призы
+                  Акции</b>
+               – призы, в том числе ежедневные,
+               ежемесячные, ежеквартальные, главный,
+               утешительные, которые определяются и
+               формируются Контент – провайдером и
+               приобретаются им до начала проведения
+               Викторины за счёт собственных средств,
+               независимо от числа Участников;</p>
+            <p>
+               <b>Система</b>
+               — программный интерфейс, разработанный
+               Организатором и содержащий инструменты
+               для учёта результатов Участников и
+               контроля за реализацией Акции;</p>
+            <p>
+               <b>Абонент</b>
+               — физическое лицо, пользующееся услугами
+               оператора связи АО «Кселл» (бренды
+               <span>Kcell</span>,
+               <span>Activ</span>).</p>
+            <p>
+               <br>
+
+            </p>
+         </div>
+      </div>
+   </section>
+</main>
+
+<footer class="wrapper">
+   <p>
+      Справочная информация: kcell@arboost.com и по номеру 950 (бесплатно)
+   </p>
+</footer>
+
+<script>
+   AOS.init();
+</script>
+</body>
+</html>
