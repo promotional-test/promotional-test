@@ -17,8 +17,52 @@
 
 <header class="header wrapper">
    <nav class="header-nav">
-      <div class="header-nav__logo">
-         <img src="./img/logo.png" alt="Kcell">
+      <div class="header-nav__logo flex j-sb flex-align-center">
+         <div class="header-nav-logo__img">
+            <img src="./img/logo.png" alt="Kcell">
+         </div>
+
+         <div class="res-header-nav__menu">
+            <button class="res-header-nav-menu__btn" type="button" uk-toggle="target: #offcanvas-overlay">
+               <span></span>
+               <span></span>
+               <span></span>
+            </button>
+
+            <div id="offcanvas-overlay" class="res-header-nav-menu__offcanvas" uk-offcanvas="overlay: true; flip: true;">
+               <div class="uk-offcanvas-bar">
+                  <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+                  <ul>
+                     <li>
+                        <a href="#banner" uk-scroll>
+                           Главная
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#instructions" uk-scroll>
+                           Как принять участие
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#prizes" uk-scroll>
+                           Призы
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#winners" uk-scroll>
+                           Победители
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#rules" uk-scroll>
+                           Правила
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
       </div>
 
       <ul class="header-nav__menu flex j-sb" style="z-index: 980;" uk-sticky="top: 100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
@@ -145,6 +189,10 @@
                Отправка SMS на номер 808 бесплатна
             </p>
          </div>
+      </div>
+
+      <div class="res-instructions-box-item__bonus" data-aos="fade-up">
+         Отправка SMS на номер 808 бесплатна
       </div>
    </section>
 
